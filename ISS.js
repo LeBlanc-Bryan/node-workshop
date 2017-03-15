@@ -47,7 +47,7 @@ prompt.get(["city"], function(err, result) {
                         var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
                         
                         var d = R * c;
-                        console.log("The distance between you and the ISS is " + d/10000 + " km!");
+                        console.log("The distance between " + result.city + " and the ISS is " + d/10000 + " km!");
                     }
                 }
                 )

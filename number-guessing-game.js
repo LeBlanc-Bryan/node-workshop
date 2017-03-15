@@ -60,8 +60,6 @@ function game(n, num) {
           
           numArray.push(guess);
           
-          console.log("n = " + n + " guess Array = " + numArray);
-          
           game(n);
         }
       }
